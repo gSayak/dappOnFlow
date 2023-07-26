@@ -5,10 +5,21 @@
 		"sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
 		"testnet": "access.devnet.nodes.onflow.org:9000"
 	},
+	"contracts":{
+		"stuff": "./cadence/stuff.cdc"
+
+	},
 	"accounts": {
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
 			"key": "c994177b0f9212cfd18dbd2b72aeb6a03e3fae0fd4438b33c9eee827e5e5fdbc"
+		}
+	},
+	"deployments": {
+		"emulator":{
+			"emulator-account": [
+				"stuff"
+			]
 		}
 	}
 }
