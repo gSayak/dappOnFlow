@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@onflow/fcl": "^0.0.78",
+    "@onflow/types": "^0.0.6",
+    "encoding": "^0.1.13",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0"
